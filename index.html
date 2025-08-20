@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Margin vs Padding</title>
+  <style>
+    body {
+      background-color: #2f5f5a;
+      font-family: Arial, sans-serif;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 30px;
+    }
+
+    h1 {
+      background-color: #2c2c2c;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .outer-box {
+      border: 5px solid red;
+      background-color: black;
+      padding: 20px;
+      margin-bottom: 20px;
+      width: 600px;
+    }
+
+    .inner-box {
+      background-color: aquamarine;
+      padding: 20px;
+      margin: 20px;
+      border: 2px solid black;
+    }
+
+    p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Margin vs Padding</h1>
+
+  <div class="outer-box">
+    <div class="inner-box">
+      <p><strong>Model qismlarining tavsifi:</strong></p>
+      <p>Content - blokning kontenti ya'ni matn va rasmlar joylashadigan qismi.</p>
+      <p>Padding - Content atrofidagi sohani tozalovchi shaffof qism.</p>
+      <p>Border - Content va Padding atrofidagi hoshiyaga.</p>
+      <p>Margin - Border atrofidagi sohani tozalovchi shaffof qism.</p>
+    </div>
+
+    <div class="inner-box">
+      <p><strong>Model qismlarining muxtalif namunasi:</strong></p>
+      <p>Content - blokning kontenti ya'ni matn va rasmlar joylashadigan qismi.</p>
+      <p>Padding - Content atrofidagi sohani tozalovchi shaffof qism.</p>
+      <p>Border - Content va Padding atrofidagi hoshiyaga.</p>
+      <p>Margin - Border atrofidagi sohani tozalovchi shaffof qism.</p>
+    </div>
+  </div>
+</body>
+</html>
